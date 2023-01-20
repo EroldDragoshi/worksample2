@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=DM%20Sans);
+* {
+  margin: 0px;
+  font-family: DM Sans;
+}
+body {
+  background-color: #f2f2f2;
+}
+
+.maindiv {
+  display: flex;
+  gap: 50px;
+}
+
+.slim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  background: #ffffff;
+  border-radius: 0px 20px 20px 0px;
+  padding-top: 40px;
+}
+.slim img {
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  max-width: 50%;
+}
+.smallicon {
+  max-width: 30%;
+}
+.last {
+  margin-top: 180px;
+}
+
+.big {
+  width: 936px;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  height: 20px;
+
+  margin-top: 28px;
+  margin-bottom: 40px;
+  width: 300px;
+}
+.searchbar p {
+  opacity: 0.4;
+}
+
+.graphdiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.imgbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 9px;
+  margin-top: 26px;
+  height: 44px;
+}
+.mediumcards > div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 448px;
+  height: 142px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.titlediv {
+  margin-top: 39px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.numberbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.numberbar p {
+  margin-top: 49px;
+}
+.undergraph {
+  display: flex;
+  gap: 40px;
+}
+
+.graphtable {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-end;
+  max-width: 90%;
+}
+.graphtable img {
+  max-width: 85%;
+}
+
+.tickets {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding-left: 20px;
+  max-width: 95%;
+}
+
+h3 {
+  font-size: 14px;
+  opacity: 0.4;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.colorbar {
+  margin-top: 20px;
+  height: 8px;
+  width: 284px;
+  border-radius: 8px;
+}
+.colorbar div {
+  height: 8px;
+  width: 130px;
+  border-radius: 8px;
+}
+
+.nr1 {
+  background-color: #e2fbd7;
+}
+.nr1 div {
+  background-color: #34b53a;
+}
+.nr2 {
+  background-color: #ffe5d3;
+}
+.nr2 div {
+  background-color: #ff3a29;
+}
+.nr3 {
+  background-color: #ccf8fe;
+}
+.nr3 div {
+  background-color: #02a0fc;
+}
+.nr4 {
+  background-color: #dad7fe;
+}
+.nr4 div {
+  background-color: #4339f2;
+}
+.nr5 {
+  background-color: #fff5cc;
+}
+.nr5 div {
+  background-color: #ffb200;
+}
